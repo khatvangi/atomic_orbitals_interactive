@@ -8,6 +8,7 @@ figs.forEach((f) => {
 });
 
 export default defineConfig({
+  base: '/atomic_orbitals_interactive/',
   build: {
     rollupOptions: {
       input
